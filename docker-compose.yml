@@ -9,7 +9,7 @@ services:
       - ./redis/logs:/logs
     command: redis-server --requirepass 123456
     ports:
-      - 6380:6379
+      - 6379:6379
   php:
     hostname: php
     image: php:7.2.24-fpm
@@ -42,7 +42,7 @@ services:
     environment:
       - TZ=Asia/Shanghai
     ports:
-      - 3307:3306
+      - 3306:3306
     networks:
       - lnmp
     volumes:
