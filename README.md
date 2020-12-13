@@ -1,6 +1,7 @@
 # docker-lnmp
 docker lnmp 环境
-### 部署(docker,docker-compose自行安装)
+### docker-compose 安装文档
+https://www.bookstack.cn/read/docker_practice-1.2.0/compose-install.md 
 
 ```bash
 git clone https://github.com/lixiuran/docker-lnmp.git
